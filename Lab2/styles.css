@@ -26,9 +26,15 @@ header p {
 
 /* Navigation Styles */
 nav {
+    float: left;
+    width: 20%;
+    padding-top: 0%;
     background-color: #ffa41b;
     padding: 15px;
     text-align: center;
+    height: 100vh;
+    position: sticky
+    top: 10%;
 }
 
 nav ul {
@@ -38,8 +44,8 @@ nav ul {
 }
 
 nav ul li {
-    display: inline-block;
-    margin: 0 15px;
+    display:block;
+    margin: 15px 0;
 }
 
 nav ul li a {
@@ -56,6 +62,8 @@ nav ul li a:hover {
 /* Main Content Styles */
 main {
     padding: 20px;
+    width: 70%;
+    float: right;
 }
 
 /* Info Section Styles */
